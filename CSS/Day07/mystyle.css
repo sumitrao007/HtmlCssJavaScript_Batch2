@@ -1,0 +1,23 @@
+
+p{
+    text-indent: 50px ;
+}
+/* apply css by class name */
+
+.myclass1{
+    width: 250px;
+    height: 350px;
+    background-color: royalblue;
+}
+
+#myId{
+    width: 350px;
+    height: 250px;
+    /* border: 2px solid saddlebrown; */
+    /* border: 2px dotted saddlebrown; */
+
+    border: 2px dashed saddlebrown;
+
+    padding: 10px;
+    margin-left: 20px;
+}

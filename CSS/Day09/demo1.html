@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+
+.navTag{
+  background-color: #2874f0;
+  height: 40px;
+  margin-top: 10px;
+  padding: 8px;
+ 
+}
+
+.main-nav{
+  list-style: none;
+  display: flex;
+ 
+}
+
+li a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.push{
+  margin-left: auto;
+}
+
+.mybtn{
+  display: inline-block;
+  color: white;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 1.5s;
+}
+
+.mybtn_green{
+  
+  color: black;
+  border: 2px solid green;
+}
+
+.mybtn_green:hover{
+  background-color: green;
+  color: white;
+}
+
+.mybtn_red{
+ 
+  color: black;
+  border: 2px solid red;
+}
+
+.mybtn_red:hover{
+  background-color: red;
+  color: white;
+}
+
+.mybtn_blue{
+
+  color: black;
+  border: 2px solid blue;
+}
+
+.mybtn_blue:hover{
+  background-color: blue;
+  color: white;
+}
+
+body{
+  background-image: url("images/galaxcy.jfif");
+}
+
+</style>
+
+
+</head>
+<body>
+  
+  <nav class="navTag">
+    <ul class="main-nav">
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Our Team</a></li>
+        <li class="push"><a href="">Contact</a></li>
+        <li ><a href="login.html" target="_blank">Login</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<button class="mybtn mybtn_green">Green</button>
+<button class="mybtn mybtn_red">Red</button>
+<button class="mybtn mybtn_blue">Blue</button>
+
+
+</body>
+</html>

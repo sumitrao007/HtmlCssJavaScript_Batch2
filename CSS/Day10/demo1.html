@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: red;
+        animation: mybodyanimate 8s linear 2s infinite alternate;
+      }
+
+      @keyframes mybodyanimate {
+        0% {
+          background-color: aquamarine;
+        }
+        25% {
+          background-color: cornflowerblue;
+        }
+        50% {
+          background-color: darkblue;
+        }
+        75% {
+          background-color: darkcyan;
+        }
+        100% {
+          background-color: darkred;
+        }
+      }
+
+      div {
+        width: 250px;
+        height: 250px;
+        background-color: white;
+
+        float: right;
+        position: relative;
+
+        text-shadow: 2px 2px 5px springgreen;
+
+        animation-name: example;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        /* animation-direction: alternate; */
+        animation-direction: alternate-reverse;
+        /* Text In Centre */
+        text-align: center;
+        line-height: 50px;
+        color: aliceblue;
+      }
+
+      @keyframes example {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+          /* hw use right & bootom */
+        }
+        25% {
+          background-color: yellow;
+          left: -100px;
+          top: 0px;
+          color: black;
+          font-style: italic;
+        }
+        50% {
+          background-color: blue;
+          left: -100px;
+          top: 100px;
+          color: white;
+          font-style: italic;
+        }
+        75% {
+          background-color: green;
+          left: 0px;
+          top: 100px;
+          color: gold;
+          text-transform: uppercase;
+        }
+        100% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+          color: green;
+          text-transform: uppercase;
+        }
+      }
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="images/galaxcy.jfif" alt="" /> <br>
+      Hi Welcome
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+
+button{
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid springgreen;
+  margin-left: 3em;
+}
+button:hover{
+  background: springgreen;
+  color: white;
+}
